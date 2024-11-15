@@ -1,3 +1,39 @@
+# Task Manager React App
+
+## Overview
+This Task Manager app allows users to manage their tasks by organizing them into three categories: To Do, In Progress, and Completed. The app utilizes localStorage to persist tasks across page reloads, and provides basic task management functionality including adding, editing, deleting, and moving tasks between categories. The app is built with React, using hooks for state management and reactivity.
+
+## Features
+`Task Creation`: Users can add new tasks with a name, description, and priority (High, Medium, Low).
+`Task Editing`: Users can edit existing tasks.
+`Task Deletion`: Users can delete tasks.
+`Task Movement`: Tasks can be moved between the "To Do", "In Progress", and "Completed" categories.
+`Search Functionality`: Users can search for tasks by name.
+`Persistence`: Tasks are stored in localStorage to retain data even after a page refresh.
+
+## Technologies Used
+`React`: JavaScript library for building user interfaces.
+`React Hooks`: For managing state and side effects.
+`React Icons`: For adding icons such as edit, delete, and search.
+`localStorage`: For persisting task data between page reloads.
+
+## Usage
+### Task Categories:
+`To Do`: The initial state of tasks. These are tasks that need to be started.
+`In Progress`: Tasks that are actively being worked on.
+`Completed`: Tasks that are finished.
+### Task Management:
+Click the Add Task button to add a new task.
+Use the Edit button (pencil icon) to modify a task.
+Use the Delete button (trash icon) to remove a task.
+Use the Move button (arrow icon) to move a task to the next category (e.g., from "To Do" to "In Progress").
+### Search:
+Use the search bar at the top to search for tasks by name across all categories. The search result will show which category the task is in, and its index within that category.
+
+## ScreenShot
+![alt text](image.png)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
