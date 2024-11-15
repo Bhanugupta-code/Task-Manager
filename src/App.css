@@ -1,38 +1,186 @@
-.App {
-  text-align: center;
+.container2 {
+    margin: auto;
+    display: block;
+    width: 90%;
+    height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0% 5%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.taskhead {
+    display: inline;
+    padding: 2px;
+    gap: 3px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.searchCont {
+    display: flex;
+    align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.search {
+    display: flex;
+    text-align: center;
+    width: fit-content;
+    padding: 2px;
+    background-color: aliceblue;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: fit-content;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.icon {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.search_input {
+    border-radius: 2%;
+    border: none;
+    width: 95%;
+    font-size: medium;
+    padding-left: 5px;
+}
+
+.container3 {
+    padding: 2px;
+}
+
+.Add {
+    margin: auto;
+    font-size: x-large;
+    display: none;
+}
+
+h3 {
+    padding-left: 3%;
+    text-align: start;
+}
+
+.Add_task {
+    text-align: center;
+}
+
+.button {
+    padding: 5px 20px;
+    font-size: x-large;
+    color: white;
+    background-color: rgb(24, 45, 181);
+    border-radius: 20px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.Add_input {
+    font-size: x-large !important;
+    margin: 2px;
+    border: 1px solid black;
+    padding: 3px 5px;
+}
+
+.button:hover {
+    background-color: white;
+    transition: 0.5s ease;
+    color: rgb(24, 45, 181);
+    border: 1px solid black;
+}
+
+.container4 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.div {
+    width: 30%;
+    height: 500px;
+    padding: 0.5%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+h4 {
+    text-align: center;
+    margin: 0px;
+    padding: 2px 5px;
+}
+
+.task_manage {
+    margin: 5px auto;
+    padding: 2px 10px;
+    display: flex;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid black;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+h2 {
+    margin: 0;
+    padding: 2px;
+}
+
+p {
+    padding: 2px;
+    margin: 0;
+}
+
+.task_button_group {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.task_button {
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    font-size: x-large;
+    border-radius: 5px;
+}
+
+.task_button:hover {
+    color: white;
+    transition: 0.5s ease;
+    background-color: black;
+}
+
+.center {
+    margin: 5px;
+}
+
+.cs {
+    display: flex;
+    align-items: center;
+}
+
+.label {
+    font-size: medium;
+    padding: 1px 5px;
+}
+
+#p {
+    color: rgb(0, 130, 17);
+    padding: 0px 5px;
+}
+
+p {
+    display: inline;
+}
+.div h3{
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+}
+.s{
+    width: 20%;
+    height: 20%;
 }
